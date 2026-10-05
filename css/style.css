@@ -1,0 +1,70 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: "Gantari", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    color: white;
+    background-color: #0B1215;
+    display: flex;
+    flex-direction: column;
+    flex: none;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    max-width: 1440px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    padding: 60px 40px;
+}
+
+.profile {
+    flex: 1 0 0;
+}
+
+.profile>div {
+    position: sticky;
+    top: 60px;
+    background-color: #ffffff09;
+    height: 400px;
+    padding:20px;
+    border: 1px solid #ffffff20;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.temp-image {
+    height: 320px;
+    width: 320px;
+    background-color: #ffffff09;
+    border: 1px solid #ffffff20;
+    border-radius: 10px;
+}
+
+.resume {
+    flex-grow: 0;
+}
+
+.experience, .education, .skills{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.experience>div, .education>div, .skills>div {
+    padding: 14px 28px;
+    border: 1px solid #ffffff20;
+    border-radius: 20px;
+    background-color: #101010;
+}
