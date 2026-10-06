@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Vampiro+One&display=swap');
+
 html {
     position: relative;
     min-height: 100%;
 }
 
 body {
-    font-family: "Gantari", sans-serif;
+    font-family: "Red Hat Text", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     margin: 0;
-    color: white;
-    background-color: #0B1215;
+    color: #f3f0e7;
+    background-color: #141312;
     display: flex;
     flex-direction: column;
     flex: none;
@@ -26,6 +28,23 @@ main {
     padding: 60px 40px;
 }
 
+h1, h2, h3 {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.tagline {
+    font-family: 'Vampiro One', 'Red Hat Display', sans-serif;
+    background: -webkit-linear-gradient(#FC466B, #432a91);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .profile {
     flex: 1 0 0;
 }
@@ -33,7 +52,7 @@ main {
 .profile>div {
     position: sticky;
     top: 60px;
-    background-color: #ffffff09;
+    background-color: #101010;
     height: 400px;
     padding:20px;
     border: 1px solid #ffffff20;
